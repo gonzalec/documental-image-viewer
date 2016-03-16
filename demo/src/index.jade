@@ -1,0 +1,10 @@
+html(ng-app="demoApp")
+  header
+    title Documental Image Viewer Demo Page
+  body(ng-controller="DemoController as demo")
+    h1 Documental Image Viewer Demo
+    h2 Hello {{demo.name}}
+    button(ng-click="demo.changeName()") Cargar apellido
+    .image-list
+    .image-viewer
+      dociv-image-viewer(images="")
