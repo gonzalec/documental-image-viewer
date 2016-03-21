@@ -1,4 +1,4 @@
-import './sass/demo.scss';
+import './styles/demo.scss';
 import angular from 'angular';
 import DemoController from './demo.controller';
 
