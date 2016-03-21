@@ -62,8 +62,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// import './index.jade';
-	// import '../../src/documental.image.viewer.directive.js';
+	// import '../src/documental.image.viewer.directive.js';
+	// a dependency to an entry point is not allowed.
 
 	exports.default = _angular2.default.module('demoApp', ['directives.docivImageViewer']).controller('DemoController', _demo2.default).name;
 
