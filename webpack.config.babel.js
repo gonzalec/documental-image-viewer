@@ -24,7 +24,7 @@ if (!production) {
         // webpack bundles.
         new HtmlWebpackPlugin({
             chunksSortMode: (a) => {
-                return a.names[0] === 'demo' ? 1 : -1;
+                return a.names[0] !== 'demo' ? 1 : -1;
             },
             template: './demo_src/index.jade',
             minify: {
