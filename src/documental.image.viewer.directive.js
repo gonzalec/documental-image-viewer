@@ -13,7 +13,7 @@ function directive() {
             name: '='
         },
         template: directiveTemplate
-    }
+    };
 }
 
 export default angular.module('directives.docivImageViewer', [])

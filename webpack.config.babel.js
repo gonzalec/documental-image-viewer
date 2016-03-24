@@ -1,3 +1,5 @@
+/* jshint node: true */
+
 'use strict';
 
 import HtmlWebpackPlugin from 'html-webpack-plugin';
